@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aspose.PDF" Version="21.12.0" />
+    <PackageReference Include="Aspose.PDF" Version="22.1.0" />
   </ItemGroup>
 
 </Project>
