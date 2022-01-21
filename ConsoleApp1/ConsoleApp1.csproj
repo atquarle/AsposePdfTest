@@ -6,11 +6,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="License\Aspose.Total.NET.lic" />
+    <Compile Remove="License\**" />
+    <EmbeddedResource Remove="License\**" />
+    <None Remove="License\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="License\Aspose.Total.NET.lic" />
+    <None Remove="Aspose.Total.NET.lic" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Aspose.Total.NET.lic" />
   </ItemGroup>
 
   <ItemGroup>
